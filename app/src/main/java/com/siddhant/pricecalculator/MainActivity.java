@@ -168,8 +168,8 @@ public class MainActivity extends AppCompatActivity {
                productWeight.setText("");
                netPrice.setText("");
                toggleButton.setChecked(false);
-               nweight.setText("Net Weight(kg) :");
-               pweight.setText("Product Weight (kg)");
+               nweight.setText("kg");
+               pweight.setText("kg");
             }
         });
     }
