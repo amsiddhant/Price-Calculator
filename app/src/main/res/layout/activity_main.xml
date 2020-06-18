@@ -197,7 +197,7 @@
                 android:textSize="24dp"
                 android:textColor="@color/White"
                 android:textAlignment="center"
-                android:paddingTop="10dp"
+                android:paddingTop="11dp"
                 ></TextView>
 
         </LinearLayout>
