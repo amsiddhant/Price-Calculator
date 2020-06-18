@@ -5,11 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:background="@color/colorPrimaryDark">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -204,6 +208,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:gravity="center"
             android:paddingTop="50dp">
             <Button
@@ -215,9 +220,12 @@
                 android:textSize="20dp"
                 android:id="@+id/reset">
             </Button>
+
         </LinearLayout>
 
 
+
     </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
